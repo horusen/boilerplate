@@ -2,7 +2,7 @@ name: CI
 
 on: [push]
 env:  
-  - IMAGE_TAG=dockerfile
+  IMAGE_TAG=dockerfile
 
 jobs:
   build:
