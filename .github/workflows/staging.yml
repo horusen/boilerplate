@@ -29,3 +29,4 @@ jobs:
           environment_name: ${{ secrets.AWS_EBS_ENVIRONMENT_NAME }}
           version_label: ${{ secrets.AWS_EBS_APPLICATION_NAME }}
           region: ${{ secrets.AWS_REGION }}
+          deployment_package: target/${{ vars.DOCKERHUB_REPO }}
